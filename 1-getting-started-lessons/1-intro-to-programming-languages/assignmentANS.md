@@ -1,0 +1,17 @@
+# Assignment #1
+
+## Background
+Yesterday, I learned about different tools regarding client-side tools which includes the editors, operating system, Command-line tools, and browsers. Which are all considered as environment. Environment is where the developer set ups his/her toolkits and the respective softwares to run on. 
+
+## Instructions
+
+There are many tools that a web developer may need that are on the [MDN documentation for client-side tooling](https://developer.mozilla.org/docs/Learn/Tools_and_testing/Understanding_client-side_tools/Overview). Select 3 tools not covered in the lesson, explain why a web developer would use it, and search for a tool that falls under this category and share its documentation. Do not use the same tool example on MDN docs.
+
+### Safety Nets
+These are tools that helps us code a bit better. There are many tools such as **linters**, which checks for syntaxes, what errors that occurs, or where the errors that are present. **Source code control** are ways to incorporate teamwork without having to override others' work into the main code repository. The term *"push"* is used to commit changes into the master version. Popular source code control system is Git. **Code formatters** works as described, which follow the guidelines for language-specific formats to comply with style rules. **Type checker** are then used to help buil;d reliable code by checking the code if the right types of data is being used. Prevents bugs like nonexisting properties, enxpected undefined, etc. TypeScript is the de facto checker for JavaScript
+
+### Transformation
+These are ways for providing compatibility for more browser. The advancement of languages have more features might not be supported by older browsers so Transformation, to an extent, must be used to convert newer feautures into old-fashioned JavaScript. Similar tools exist for CSS language.  Similarly, there are also functions that are created with different languages and then compiled into javascript which allows some functionalities like nested rules for CSS. TypeScript, being a superset of JavaScript, offers a bunch of additional features. Other frameworks like React, Ember, and Vue which as built on top of vanilla JavaScript with custom syntax. It is the interpreted by the framework to render it as a final web application. Optimization now exist to get the code ready for production by *bundlers*, somehow techniques such as "tree-shaking" for only making sure the code that is need to be changed are only the actual parts that are needed for production. Another technique is "minimizing" such as removing any whitespaces to make it small as possible before it is uploaded to the server.
+
+## Post development
+These are tools needed in order to maintain the code for it to run. There are deployment processes, testing frameworks, auditing tools, etc. Things should have as little intervation and everything here are almost automated, only so notice the developer of errors that might occur. **Testing tools** are where tools automatically run test against the code to make sure it is correct before attempting to push changes. **Deployment tools** there works alongside testing tools to check for pass before automatically deploying an application to a production site.
